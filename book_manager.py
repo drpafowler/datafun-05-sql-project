@@ -49,7 +49,7 @@ def insert_data_from_csv(db_path, author_data_path, book_data_path):
         countrylanguage_df = pd.read_csv(countrylanguage_data_path)
         country_df = pd.read_csv(country_data_path)
         with sqlite3.connect(db_path) as conn:
-            authors_df.to_sql("city", conn, if_exists="replace", index=False)
+            city_df.to_sql("city", conn, if_exists="replace", index=False)
             countrylanguage_df.to_sql("countrylanguage", conn, if_exists="replace", index=False)
             country_df.to_sql("country", conn, if_exists="replace", index=False)
             print("Data inserted successfully.")
