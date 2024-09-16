@@ -42,7 +42,7 @@ def create_tables(db_path, sql_file_path):
     except sqlite3.Error as e:
         print(f"Error creating tables: {e}")
 
-def insert_data_from_csv(db_path, author_data_path, book_data_path):
+def insert_data_from_csv(db_path, city_data_path, countrylanguage_data_path, country_data_path):
     """Read data from CSV files and insert the records into their respective tables."""
     try:
         city_df = pd.read_csv(city_data_path)
