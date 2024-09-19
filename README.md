@@ -10,6 +10,8 @@ The database files come from the MySQL World database that I already had in Post
 Several scripts were written.
 create_tables.sql was modified from the file by the same name that was used earlier in module 5.
 
+![alt text](image.png)
+
 world_manager.py was modified from book_manager.py from earlier in module 5
 
 These two files were used to create the project.db database.
