@@ -8,11 +8,11 @@ Project 5 integrates Python and SQL, focusing on database interactions using SQL
 The database files come from the MySQL World database that I already had in PostgreSQL for another class.  I exported the database to three separate csv files.  
 
 Several scripts were written.
-create_tables.sql was modified from the file by the same name that was used earlier in module 5.
-
-![alt text](<Screenshot 2024-09-19 121117.png>)
+create_tables.sql was modified from the file by the same name that was used earlier in module 5.  
+![alt text](<Screenshot 2024-09-19 121747.png>)
 
 world_manager.py was modified from book_manager.py from earlier in module 5
+![alt text](<Screenshot 2024-09-19 121117.png>)
 
 These two files were used to create the project.db database.
 
